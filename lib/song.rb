@@ -27,7 +27,8 @@ def self.artists
 end 
 
 def self.genre_count
-  genre_count = Hash.new
+  genre_count = Hash.new(0)
+  
   
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
