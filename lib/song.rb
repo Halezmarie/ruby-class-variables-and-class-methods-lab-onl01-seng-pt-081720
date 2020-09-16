@@ -9,7 +9,7 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 
-def intialize(song_name,artist, genre)
+def initialize(song_name,artist, genre)
   @name = song_name
   @artist = artist 
   @genre = genre
