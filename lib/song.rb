@@ -9,7 +9,7 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 
-def intialize(song_name,)
+def intialize(song_name,artist, genre)
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
