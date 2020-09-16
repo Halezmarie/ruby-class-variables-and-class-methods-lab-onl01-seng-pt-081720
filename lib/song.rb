@@ -29,6 +29,7 @@ end
 def self.genre_count
   genre_count = Hash.new(0)
   @@genres.each {|genre| genre_count[genre] += 1}
+  genre
   
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
