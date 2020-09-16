@@ -33,7 +33,8 @@ def self.genre_count
 end
 
 def self.artist_count
-  artist_count = Hash.
+  artist_count = Hash.new(0)
+  
   
   
 
