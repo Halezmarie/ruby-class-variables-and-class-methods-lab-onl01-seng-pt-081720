@@ -2,5 +2,5 @@
 
 
 Song class(name, artist, genre)
-
+song.count()
   
