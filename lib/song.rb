@@ -15,7 +15,7 @@ def intialize(song_name,artist, genre)
   @genre = genre
   @@count += 1 
   @@artists << artist
-  
+  @@genres
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
