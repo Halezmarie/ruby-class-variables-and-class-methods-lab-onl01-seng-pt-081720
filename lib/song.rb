@@ -5,7 +5,8 @@ def Song class(name, artist, genre)
 song.count => 30
 end 
 
+# We need our `Song` class to be able to show us all of the artists of existing songs:
 
-
+Song class 
 
   
