@@ -22,6 +22,9 @@ def self.count
   @@count
 end
 
+def self.artists
+  @@artists.uniq 
+end 
 
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
