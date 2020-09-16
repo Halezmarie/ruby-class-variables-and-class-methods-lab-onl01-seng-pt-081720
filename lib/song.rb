@@ -19,7 +19,7 @@ def intialize(song_name,artist, genre)
 end 
 
 def self.count 
-  
+  @@count
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
