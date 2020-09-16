@@ -11,7 +11,8 @@ attr_accessor :name, :artist, :genre
 
 def intialize(song_name,artist, genre)
   @name = song_name
-  
+  @artist = artist 
+  @genre = genre 
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
