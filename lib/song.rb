@@ -7,6 +7,7 @@ attr_accessor :name, :artist, :genre
 
 @@count = 0 #lab says to set to 0 
 @@artists = []
+@@genres = []
 
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
