@@ -35,6 +35,7 @@ end
 def self.artist_count
   
   
+  
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
