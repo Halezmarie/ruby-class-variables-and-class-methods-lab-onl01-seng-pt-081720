@@ -3,7 +3,7 @@
 
 class Song 
   
-attr_accessor
+attr_accessor :name, 
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
