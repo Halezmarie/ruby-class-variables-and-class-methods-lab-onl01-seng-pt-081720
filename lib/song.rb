@@ -9,7 +9,6 @@ attr_accessor :name, :artist, :genre
 @@count = 0 #lab says to set to 0 
 @@artists = []
 @@genres = []
-end 
 
 def initialize(song_name,artist, genre)
   @name = song_name
