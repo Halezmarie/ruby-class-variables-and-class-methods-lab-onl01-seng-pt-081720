@@ -26,7 +26,8 @@ def self.artists
   @@artists.uniq 
 end 
 
-def self
+def self.genres 
+  
 
 # We need our `Song` class to be able to show us all of the artists of existing songs:
 
